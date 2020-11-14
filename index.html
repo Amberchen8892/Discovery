@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/glide.core.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/23cbbbdcb5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/hover.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script src="/js/glide.min.js"></script>
+    <title>Discovery.</title>
+  </head>
+
+  <body>
+    <section>
+      <nav>
+        <h5>DISCOVERY.</h5>
+        <ul>
+          <li>Home</li>
+          <li>Collections</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+        <div class="search">
+          <i class="fa fa-search"></i>
+        </div>
+      </nav>
+      <div class="side-indicator">
+        <div class="line"></div>
+        <div class="index one">
+          <p>1</p>
+        </div>
+        <div class="index two">
+          <p>2</p>
+        </div>
+        <div class="index three">
+          <p>3</p>
+        </div>
+        <div class="index four">
+          <p>4</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="text-wrapper">
+          <div class="text">
+            <div id="title">
+              <h4>VIETNAM</h4>
+              <h4>JAPAN</h4>
+              <h4>KOREA</h4>
+              <h4>LONDON</h4>
+            </div>
+            <div id="description">
+              <p>
+                A land of staggering natural beauty and cultural complexities,
+                of dynamic megacities and hill-tribe villages, Vietnam is both
+                exotic and compelling.Unforgettable experiences are everywhere
+                in Vietnam.
+              </p>
+              <p>
+                Japan is truly timeless, a place where ancient traditions are
+                fused with modern life as if it were the most natural thing in
+                the world.On the surface Japan appears exceedingly modern, but
+                travelling around it offers numerous opportunities to connect
+                with the country's traditional culture.
+              </p>
+              <p>
+                Decorum plays a major role in Korean people’s generosity to
+                outsiders, and their instinctive graciousness possesses a highly
+                endearing quality. Helpfulness abounds, whether it’s at a
+                tourist office, asking someone for directions or finding
+                yourself deep in a conversation with a stranger.
+              </p>
+              <p>
+                One of the world's most visited cities, London has something for
+                everyone: from history and culture to fine food and good times.
+                Immersed in history, London's rich seams of eye-opening
+                antiquity are everywhere. The city's buildings are striking
+                milestones in a unique and beguiling biography, and a great many
+                of them – the Tower of London, Westminster Abbey, Big Ben – are
+                instantly recognisable landmarks.
+              </p>
+            </div>
+            <div class="btn">
+              <p>Explore</p>
+              <i class="fa fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="glide">
+          <div class="glide_cover"></div>
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="slide one">
+                  <p>Vietnam</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="images/v1.jpeg" />
+                    <div class="bookmark">
+                      <i class="fa fa-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide two">
+                  <p>Japan</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="images/j1.jpeg" />
+                    <div class="bookmark">
+                      <i class="fa fa-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide three">
+                  <p>Korea</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="images/k2.jpeg" />
+                    <div class="bookmark">
+                      <i class="fa fa-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide four">
+                  <p>London</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="images/l1.jpeg" />
+                    <div class="bookmark">
+                      <i class="fa fa-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div data-glide-el="controls" class="controls">
+            <div data-glide-dir="<" id="prev">
+              <i class="fa fa-arrow-left"></i>
+            </div>
+            <div data-glide-dir=">" id="next">
+              <i class="fa fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background"></div>
+    </section>
+    <!-- <section>
+      <nav>
+        <h5>Discovery.</h5>
+        <ul>
+          <li>Home</li>
+          <li>Collections</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+        <div class="search">
+          <i class="fa fa-search"></i>
+        </div>
+      </nav>
+      <div class="side-indicator">
+        <div class="line"></div>
+        <div class="index one">
+          <p>1</p>
+        </div>
+        <div class="index two">
+          <p>2</p>
+        </div>
+        <div class="index three">
+          <p>3</p>
+        </div>
+        <div class="index four">
+          <p>4</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="text-wrapper">
+          <div class="text">
+            <div id="title">
+              <h4>JAPAN</h4>
+              <h4>VIETNAM</h4>
+              <h4>KOREA</h4>
+              <h4>LONDON</h4>
+            </div>
+
+            <div id="description">
+              <p>
+                Japan is truly timeless, a place where ancient traditions are
+                fused with modern life as if it were the most natural thing in
+                the world.On the surface Japan appears exceedingly modern, but
+                travelling around it offers numerous opportunities to connect
+                with the country's traditional culture.
+              </p>
+              <p>
+                A land of staggering natural beauty and cultural complexities,
+                of dynamic megacities and hill-tribe villages, Vietnam is both
+                exotic and compelling.Unforgettable experiences are everywhere
+                in Vietnam.
+              </p>
+              <p>
+                Decorum plays a major role in Korean people’s generosity to
+                outsiders, and their instinctive graciousness possesses a highly
+                endearing quality. Helpfulness abounds, whether it’s at a
+                tourist office, asking someone for directions or finding
+                yourself deep in a conversation with a stranger.
+              </p>
+              <p>
+                One of the world's most visited cities, London has something for
+                everyone: from history and culture to fine food and good times.
+                Immersed in history, London's rich seams of eye-opening
+                antiquity are everywhere. The city's buildings are striking
+                milestones in a unique and beguiling biography, and a great many
+                of them – the Tower of London, Westminster Abbey, Big Ben – are
+                instantly recognisable landmarks.
+              </p>
+            </div>
+            <div class="btn">
+              <p>Explore</p>
+              <i class="fa fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="glide">
+          <div class="glide_cover"></div>
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="slide one">
+                  <p>Japan</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="images/j1.jpeg" />
+                    <div class="bookmark">
+                      <i class="fa fa-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide two">
+                  <p>Vietnam</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="images/v1.jpeg" />
+                    <div class="bookmark">
+                      <i class="fa fa-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide three">
+                  <p>Korea</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="images/k1.jpeg" />
+                    <div class="bookmark">
+                      <i class="fa fa-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide four">
+                  <p>London</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img src="images/l1.jpeg" />
+                    <div class="bookmark">
+                      <i class="fa fa-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div data-glide-el="controls" class="controls">
+            <div data-glide-dir="<" id="prev">
+              <i class="fa fa-arrow-left"></i>
+            </div>
+            <div data-glide-dir=">" id="next">
+              <i class="fa fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background"></div>
+    </section> -->
+    <!-- <script src="/js/index.js"></script>
+    <script src="/js/hover.js"></script>
+    <script src="/js/glide.min.js"></script> -->
+  </body>
+</html>
