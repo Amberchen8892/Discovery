@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     imagesRatio: 1080 / 1920,
     image1: `images/${bgImgs[0]}`,
     image2: `images/${bgImgs[1]}`,
-    displacementImage: 'img/14.jpg',
+    displacementImage: 'images/14.jpg',
     hover: false,
   });
 
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     imagesRatio: 1080 / 1920,
     image1: `images/${bgImgs[1]}`,
     image2: `images/${bgImgs[2]}`,
-    displacementImage: 'img/14.jpg',
+    displacementImage: 'images/14.jpg',
     hover: false,
   });
 
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     imagesRatio: 1080 / 1920,
     image1: `images/${bgImgs[2]}`,
     image2: `images/${bgImgs[3]}`,
-    displacementImage: 'img/14.jpg',
+    displacementImage: 'images/14.jpg',
     hover: false,
   });
 
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     imagesRatio: 1080 / 1920,
     image1: `images/${bgImgs[3]}`,
     image2: `images/${bgImgs[0]}`,
-    displacementImage: 'img/14.jpg',
+    displacementImage: 'images/14.jpg',
     hover: false,
   });
 
